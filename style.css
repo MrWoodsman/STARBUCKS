@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+header ul a {
+    text-decoration: none;
+    color: #323232;
+    font-weight: bold;
+    padding: 15px 10px;
+}
+
+header ul {
+    float: right;
+    padding-right: 40px;
+    padding-top: 25px;
+}
+
+header img {
+    padding: 15px 0px 0px 40px;
+    max-width: 80px;
+}
+
+article {
+    z-index: 10;
+    width: 650px;
+    margin-top: 150px;
+    margin-left: 40px;
+    font-size: 80px;
+}
+
+article p {
+    z-index: 10;
+    margin: 0;
+    font-weight: 400;
+    display: inline-block;
+}
+
+article .green {
+    color: rgb(26, 116, 26);
+    font-weight: 1000;
+    padding-left: 15px;
+}
+
+article .txt {
+    z-index: 10;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+article p a {
+    z-index: 10;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(26, 116, 26);
+    border-radius: 60px;
+    padding: 10px 25px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.zdj {
+    z-index: 1;
+    display: fixed;
+    right: -50px;
+    top: 375px;
+    position: fixed;
+    transition: 0.5s;
+    width: 500px;
+
+}
+
+.zdj:hover {
+    transform: translateY(-40px);
+}
+
+.kolo {
+    display: fixed;
+    transition: 0.5s;
+    z-index: -2;
+    position: fixed;
+    height: 500px;
+    right: 0px;
+    width: 500px;
+    border-radius: 50%;
+    transform: translateX(250px) scale(2);
+    background-color: rgb(52, 131, 52);
+}
+
+#hig {
+    height: 1500px;
+    position: absolute;
+}
+
+@media (max-width: 1500px) {
+
+}
+
+@media (max-width: 1250px) {
+
+}
